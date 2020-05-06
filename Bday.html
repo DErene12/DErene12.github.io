@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Birthday</title>
+</head>
+
+
+<script>
+    let nameDate= {
+    "james" : "1/1/92",
+   "ybeth" : "1/25/92",
+   "jibelle" : "2/11/92",
+   "dave" : "2/12/92",
+   "mariel" : "2/17/92",
+   "joana" : "3/13/92",
+   "kim" : "3/13/91",
+   "mazel" : "3/21/91",
+    "peachy" : "4/1/92",
+    "stephanie" : "4/1/91",
+    "kaye" : "4/14/92",
+    "jen" : "4/15/91",
+    "xenia" : "4/15/91",
+    "april" : "4/17/92",
+    "lehi" : "4/20/91",
+    "joy" : "6/4/91",
+    "alyssa" : "6/8/91",
+    "devorah" : "6/11/92",
+    "sarah" : "6/20/91",
+    "donna" : "6/22/92",
+    "abee" : "7/5/91",
+    "leslie" : "7/13/91",
+    "gieralyn" : "7/27/91",
+    "nikka" : "8/1/91",
+    "rommil" : "8/14/91",
+    "francis" : "8/15/92",
+    "charlotte" : "8/19/91",
+    "lemuel" : "8/27/91",
+    "joegem" : "8/28/91",
+    "korina" : "9/1/90",
+   "prince" : "9/2/92",
+   "dennis" : "9/5/91",
+   "ruth" : "9/20/91",
+   "mj" : "9/22/91",
+   "maxie" : "9/28/91",
+   "ronalyn" : "10/6/91",
+   "kenneth" : "10/10/91",
+   "hannibal" : "10/19/91",
+   "alex" : "10/25/91",
+   "franco" : "10/25/91",
+   "roeder" : "11/5/91",
+   "mechie" : "11/6/92",
+   "rexor" : "11/6/91",
+   "tricia" : "12/5/91",
+   "hazel" : "12/10/91",
+   "lady" : "12/18/91",
+   "kyre" : "12/20/91",
+   "kevin" : "12/24/91",
+   "janine" : "12/29/91"
+}
+
+</script>
+
+
+ 
+
+<body>
+    <h1>When's my friend's birthday?</h1>
+    <form>
+        <label>Name:</label>
+        <input id="input" type="text" placeholder="Enter name" />
+    </br>
+
+    </form>
+
+     
+   <p id="demo">Birth Date </p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+
+<script>
+
+    function myFunction() {
+        var name = document.getElementById("input").value;
+    document.getElementById("demo").innerHTML = nameDate[name];
+    }
+    </script>
+    
+</html>
